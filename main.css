@@ -203,7 +203,7 @@ footer {
 
 @media only screen and (max-width: 655px) {
   .headtxt {
-    font-size: 10px;
+    font-size: 11px;
   }
   .top i {
     font-size: 20px;
@@ -228,6 +228,7 @@ footer {
     justify-content: center;
     align-items: center;
   }
+  
   .content {
     padding: 0% 20px;
   }
