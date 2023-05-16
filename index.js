@@ -21,7 +21,7 @@ const request = fetch(
   `https://min-api.cryptocompare.com/data/v2/news/?lang=EN`
 ).then(function (response) {
   return response.json().then(function (data) {
-    console.log(data["Data"]);
+    console.log("Welcome to my website ...");
 
     for (i = 0; i <= 50; i++) {
       rendernews(data["Data"][i]);

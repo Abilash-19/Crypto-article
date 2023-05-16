@@ -46,7 +46,7 @@ header img {
 }
 
 .container {
-  padding: 0px 8%;
+  padding: 0px 3%;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -203,16 +203,42 @@ footer {
 
 @media only screen and (max-width: 655px) {
   .headtxt {
-    font-size: 12px;
+    font-size: 10px;
   }
   .top i {
     font-size: 20px;
   }
+  .tags {
+    font-size: 15px;
+  }
   .title {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .content a {
+    margin-bottom: 15px;
+  }
+
+  .body {
+    font-size: 13px;
+  }
+
+  .container {
+    padding: 0%;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+  }
+  .content {
+    padding: 0% 20px;
+  }
+  footer {
+    margin-top: 30px;
   }
 
   .top p {
     font-size: 0px;
+  }
+  .header {
+    padding: 0;
   }
 }
