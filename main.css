@@ -38,8 +38,7 @@ header {
   border: none;
 }
 .headtxt span {
-color: #45aaf2;
-  
+  color: #45aaf2;
 }
 header img {
   height: 300px;
@@ -60,7 +59,8 @@ header img {
   transition: all 0.3s ease;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .text {
   margin-right: 30px;
@@ -75,7 +75,7 @@ header img {
   font-size: 17px;
   font-weight: 500;
 }
-.content:hover{
+.content:hover {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .body {
@@ -109,10 +109,9 @@ footer {
 .top {
   display: flex;
   justify-content: space-between;
-background-color: #45aaf2;
+  background-color: #45aaf2;
   padding: 20px;
   text-align: center;
- 
 }
 .top ul {
   display: flex;
@@ -139,23 +138,22 @@ background-color: #45aaf2;
   justify-content: space-between;
   align-items: center;
   padding: 20px 5%;
-  
 }
 .left h1 {
   color: #45aaf2;
   font-size: 1.6em;
   margin-bottom: 10px;
 }
-.left p{
+.left p {
   color: #fff;
 }
-.middle h4{
+.middle h4 {
   color: #45aaf2;
   text-transform: uppercase;
   font-size: 20px;
   text-align: center;
 }
-.bottom{
+.bottom {
   padding: 30px;
 }
 .bottom ul {
@@ -169,56 +167,52 @@ background-color: #45aaf2;
   text-decoration: none;
   font-size: 18px;
 }
-.right i{
+.right i {
   margin-right: 15px;
 }
 
-.middle a:hover , .bottom a:hover{
+.middle a:hover,
+.bottom a:hover {
   color: #45aaf2;
 }
 @media only screen and (max-width: 1012px) {
   .content {
     flex-direction: column;
   }
-  .bottom{
+  .bottom {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .middle,.right{
+  .middle,
+  .right {
     margin-top: 40px;
   }
-  header{
+  header {
     flex-direction: column;
     align-items: center;
     padding: 0px 10px;
-    
   }
-  .headtxt{
+  .headtxt {
     text-align: center;
   }
-  .header h1{
+  .header h1 {
     text-align: center;
   }
 }
 
-@media only screen and (max-width:655px){
+@media only screen and (max-width: 655px) {
   .headtxt {
     font-size: 12px;
   }
-  .top i{
+  .top i {
     font-size: 20px;
   }
-  .title{
+  .title {
     font-size: 25px;
-   
   }
-  .content{
-    padding: 0px 100%;
-  }
-  .top p{
+
+  .top p {
     font-size: 0px;
   }
-  
- 
 }
