@@ -60,8 +60,6 @@ header a:hover {
   color: coral;
 }
 
-
-
 .container {
   min-width: 100%;
   display: flex;
@@ -81,8 +79,7 @@ header a:hover {
   justify-content: space-evenly;
 
   margin-right: 50px;
-  
-  
+
   margin: 50px 0px;
   width: 350px;
 }
@@ -112,11 +109,11 @@ header a:hover {
   font-size: 1.5em;
   margin: 10px 0px;
   overflow: hidden;
-   text-overflow: ellipsis;
-   display: -webkit-box;
-   -webkit-line-clamp: 2; /* number of lines to show */
-           line-clamp: 2;
-   -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 a p {
@@ -127,7 +124,6 @@ a p {
   border: 2px solid black;
   margin-top: 10px;
   transition: all 0.2s;
-  
 }
 
 a p:hover {
@@ -220,7 +216,7 @@ footer {
 }
 .middle a:hover,
 .bottom a:hover {
-  color:coral;
+  color: coral;
 }
 @media only screen and (max-width: 1012px) {
   .content {
@@ -284,10 +280,8 @@ footer {
   .header {
     padding: 0;
   }
-  
-  .tags{
+
+  .tags {
     font-size: 10px;
   }
-} 
-
-
+}
