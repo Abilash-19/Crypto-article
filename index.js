@@ -3,16 +3,16 @@ function rendernews(data) {
   const html = `
   
   <div class="content">
-      <div class="text">
-          <h3 class="title">${data.title}</h3>
-          <p class="tags">${data.tags}</p>
+        <div class="img"><img src=${data.imageurl} alt="" srcset="" /></div>
+        <div class="text">
+          <h1 class="title">
+            ${data.title}
+          </h1>
+          <p class="tags">${data.categories}</p>
           <p class="body">${data.body}</p>
-          <a class="url" href= ${data.url}>read more...</a>
-
-           
+          <a href=${data.url}><p>Read more</p></a>
+        </div>
       </div>
-      <img src=${data.imageurl} alt="image of the news">
-  </div>
 
 `;
   newscontainer.insertAdjacentHTML("beforeend", html);
@@ -22,6 +22,7 @@ const request = fetch(
 ).then(function (response) {
   return response.json().then(function (data) {
     console.log("Welcome to my website ...");
+    console.log(data["Data"]);
 
     for (i = 0; i <= 50; i++) {
       rendernews(data["Data"][i]);
