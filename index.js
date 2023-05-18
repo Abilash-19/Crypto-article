@@ -10,7 +10,7 @@ function rendernews(data) {
           </h1>
           <p class="tags">${data.categories}</p>
           <p class="body">${data.body}</p>
-          <a href=${data.url}><p>Read more</p></a>
+          <a href=${data.url}  target="_blank"><p>Read more</p></a>
         </div>
       </div>
 
@@ -22,7 +22,7 @@ const request = fetch(
 ).then(function (response) {
   return response.json().then(function (data) {
     console.log("Welcome to my website ...");
-    console.log(data["Data"]);
+
 
     for (i = 0; i <= 50; i++) {
       rendernews(data["Data"][i]);

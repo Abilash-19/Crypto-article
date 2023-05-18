@@ -102,6 +102,7 @@ header a:hover {
   margin: 12px 0px;
   text-align: justify;
   -webkit-box-orient: vertical;
+  font-weight: 400;
   font-size: 1em;
 }
 
@@ -111,8 +112,8 @@ header a:hover {
   overflow: hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-line-clamp: 2; /* number of lines to show */
-  line-clamp: 2;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
   -webkit-box-orient: vertical;
 }
 
@@ -125,10 +126,15 @@ a p {
   margin-top: 10px;
   transition: all 0.2s;
 }
+.tags{
+  color: grey;
+}
 
 a p:hover {
   background-color: orangered;
   color: aliceblue;
+  border: none;
+  outline: none;
 }
 
 @media only screen and (max-width: 692px) {
@@ -217,6 +223,7 @@ footer {
 .middle a:hover,
 .bottom a:hover {
   color: coral;
+
 }
 @media only screen and (max-width: 1012px) {
   .content {
@@ -282,6 +289,29 @@ footer {
   }
 
   .tags {
-    font-size: 10px;
+    font-size: 12px;
   }
+  .title {
+    font-size: 1.5em;
+    margin: 10px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10; /* number of lines to show */
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+  }
+  .body {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    margin: 12px 0px;
+    text-align: justify;
+    -webkit-box-orient: vertical;
+    font-weight: 400;
+    font-size: 1em;
+    
+  }
+  
 }
