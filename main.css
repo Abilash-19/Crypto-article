@@ -113,7 +113,7 @@ header a:hover {
   text-overflow: ellipsis;
   display: -webkit-box;
   -webkit-line-clamp: 3;
-  line-clamp: 3;
+
   -webkit-box-orient: vertical;
 }
 
@@ -126,7 +126,7 @@ a p {
   margin-top: 10px;
   transition: all 0.2s;
 }
-.tags{
+.tags {
   color: grey;
 }
 
@@ -223,7 +223,6 @@ footer {
 .middle a:hover,
 .bottom a:hover {
   color: coral;
-
 }
 @media only screen and (max-width: 1012px) {
   .content {
@@ -311,7 +310,5 @@ footer {
     -webkit-box-orient: vertical;
     font-weight: 400;
     font-size: 1em;
-    
   }
-  
 }
